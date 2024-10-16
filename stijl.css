@@ -38,9 +38,13 @@ body {
 }
 
 .tekst {
-  font-size: 25px;
+  font-size: 23px;
   margin: 0;
   padding: 15px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .titel {
@@ -48,6 +52,10 @@ body {
   margin: 0;
   padding: 10px;
   color: var(--groen);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .subtitel {
@@ -55,6 +63,10 @@ body {
   margin: 0;
   padding: 10px;
   color: var(--groen);
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 450;
+  font-style: normal;
 }
 
 #hobby {
@@ -252,3 +264,6 @@ section + section {
   border-color: var(--groen);
   border-radius: 8px;
 }
+
+
+
