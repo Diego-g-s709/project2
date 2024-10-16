@@ -1,0 +1,254 @@
+:root {
+  --groen: #556b2f;
+  --achtergrond: #f6f4dd;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding-left: 0;
+  background-color: var(--achtergrond);
+}
+
+#paginas {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--groen);
+  font-size: 23px;
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+  }
+
+  li a:hover:not(.active) {
+    background-color: var(--achtergrond);
+    color: black;
+  }
+}
+
+.tekst {
+  font-size: 25px;
+  margin: 0;
+  padding: 15px;
+}
+
+.titel {
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+  color: var(--groen);
+}
+
+.subtitel {
+  font-size: 35px;
+  margin: 0;
+  padding: 10px;
+  color: var(--groen);
+}
+
+#hobby {
+  text-decoration: none;
+  color: var(--groen);
+}
+
+#Diego1 {
+  position: absolute;
+  top: 75px;
+  left: 1400px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--groen);
+  border-radius: 8px;
+}
+
+#kenmerken {
+  list-style-type: none;
+  font-size: 30px;
+}
+
+#homepositie{
+  text-align: center;
+}
+
+
+.buttons {
+  background-color: var(--groen);
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+}
+
+#games {
+  td {
+    border-style: solid;
+    border-width: 4px;
+    padding: 5px;
+    border-color: var(--groen);
+    font-size: 20px;
+  }
+  position: absolute;
+  top: 430px;
+  left: 1217px;
+}
+
+#fotopc {
+  position: absolute;
+  top: 155px;
+  left: 1200px;
+  border-style: solid;
+  border-color: var(--groen);
+  border-width: 4px;
+}
+
+#favorieteGames {
+    font-size: 30px;
+    color: var(--groen);
+    position: absolute;
+  top: 360px;
+  left: 1217px;
+}
+
+
+#Walter {
+    position: absolute;
+    top: 1400px;
+    left: 900px;
+    border-style: solid;
+    border-color: var(--groen);
+    border-width: 4px;
+    border-radius: 8px;
+}
+
+#Lola {
+    position: absolute;
+    top: 1400px;
+    left: 1300px;
+    border-style: solid;
+    border-color: var(--groen);
+    border-width: 4px;
+    border-radius: 8px;
+}
+
+#fotoMap {
+
+  position: absolute;
+  top: 1000px;
+  left: 1000px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--groen);
+  border-radius: 8px;
+}
+
+section {
+  background-color: var(--groen);
+  color: white;
+  padding: 40px;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 1500px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+section a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+section + section {
+  margin-top: 0;
+}
+
+#Diego2 {
+  position: absolute;
+  top: 250px;
+  left: 700px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--groen);
+  border-radius: 8px;
+}
+
+
+.contact-form {
+  background-color: var(--groen);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: white;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.form-group textarea {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+#bodycv{
+  text-align: center;
+}
+
+#bodycontact{
+  text-align: center;
+}
+
+#bodyervaring{
+  text-align: center;
+}
+
+#ervaring{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#lijstcv{
+  list-style-type: none;
+  font-size: 20px;
+}
+
+#Diego3{
+  position: absolute;
+  top: 100px;
+  left: 150px;
+  border-style: solid;
+  border-width: 4px;
+  border-color: var(--groen);
+  border-radius: 8px;
+}
