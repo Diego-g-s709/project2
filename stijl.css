@@ -126,12 +126,10 @@ body {
   border-width: 4px;
 }
 
-#favorieteGames {
+#captionTabel{
     font-size: 30px;
     color: var(--groen);
-    position: absolute;
-  top: 360px;
-  left: 1217px;
+
 }
 
 
