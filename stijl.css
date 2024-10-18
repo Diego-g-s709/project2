@@ -111,10 +111,12 @@ body {
     padding: 5px;
     border-color: var(--groen);
     font-size: 20px;
+   
   }
   position: absolute;
   top: 430px;
   left: 1217px;
+  border-collapse: collapse;
 }
 
 #fotopc {
