@@ -9,6 +9,12 @@ body {
   margin: 0;
   padding-left: 0;
   background-color: var(--achtergrond);
+  overflow-x: hidden;
+}
+
+#logo{
+  padding: 11px;
+
 }
 
 #paginas {
@@ -18,6 +24,8 @@ body {
   overflow: hidden;
   background-color: var(--groen);
   font-size: 23px;
+  position: sticky;
+  top: 0px;
 
   li {
     float: left;
@@ -37,7 +45,9 @@ body {
   }
 }
 
-.tekst {
+.tekst-welkom {
+  color: white;
+  text-align: left;
   font-size: 23px;
   margin: 0;
   padding: 15px;
@@ -47,7 +57,32 @@ body {
   font-style: normal;
 }
 
+.tekst {
+
+  font-size: 23px;
+  margin: 0;
+  padding: 15px;
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.titel-welkom{
+
+  text-align: center;
+  font-size: 40px;
+  margin: 0;
+  padding: 10px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
 .titel {
+  text-align: center;
   font-size: 40px;
   margin: 0;
   padding: 10px;
@@ -74,10 +109,7 @@ body {
   color: var(--groen);
 }
 
-#Diego1 {
-  position: absolute;
-  top: 75px;
-  left: 1400px;
+#Diego {
   border-style: solid;
   border-width: 4px;
   border-color: var(--groen);
@@ -87,6 +119,7 @@ body {
 #kenmerken {
   list-style-type: none;
   font-size: 30px;
+  text-align: center;
 }
 
 #homepositie{
@@ -113,9 +146,7 @@ body {
     font-size: 20px;
    
   }
-  position: absolute;
-  top: 430px;
-  left: 1217px;
+
   border-collapse: collapse;
 }
 
@@ -188,16 +219,6 @@ section + section {
   margin-top: 0;
 }
 
-#Diego2 {
-  position: absolute;
-  top: 250px;
-  left: 700px;
-  border-style: solid;
-  border-width: 4px;
-  border-color: var(--groen);
-  border-radius: 8px;
-}
-
 
 .contact-form {
   background-color: var(--groen);
@@ -255,15 +276,41 @@ section + section {
   font-size: 20px;
 }
 
-#Diego3{
-  position: absolute;
-  top: 100px;
-  left: 150px;
-  border-style: solid;
-  border-width: 4px;
-  border-color: var(--groen);
-  border-radius: 8px;
+
+
+.hero{
+  background-color: var(--groen);
+
 }
 
+.btn-primary{
+  background-color: var(--groen);
+}
 
+.card{
+  background-color: var(--achtergrond);
+  border-style: solid;
+  border-width: 3px;
+  border-color: var(--groen);
+}
 
+.footer{
+  background-color: var(--groen);
+  color:white;
+}
+
+.carousel-item{
+  height: 600px;
+  width: 1300;
+
+ position: center ;
+}
+
+.accordion-button{
+  background-color: var(--groen);
+  color: white;
+}
+
+.accordion-body{
+  background-color: var(--achtergrond);
+}

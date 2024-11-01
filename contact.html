@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>diegogs contact</title>
-    <link rel="stylesheet" href="stijl.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/stijl.css" />
 
     <link rel="icon" type="image/x-icon" href="favicon.ico">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
@@ -21,45 +22,71 @@
 </head>
 <body>
     <div id="bodycontact">
-    <ul id="paginas">
-        <li> <a href="index.html">home</a></li>
-        <li> <a href="cv.html">cv</a></li>
-        <li><a href="ervaring.html">ervaring</a></li>
-        <li><a href="hobby.html">hobby</a></li>
-        <li><a href="contact.html">contact</a></li>
-     </ul>
-    <h1 class="titel">Heeft u nog vragen? contacteer mij dan gerust!</h1>
-    <p class="tekst">mail: diegogs.gutie@outlook.com</p>
-    <p class="tekst">tel: 0495340078</p>
+        <ul id="paginas">
+            <li><div id="logo"><img src="favicon-32x32.png" alt=""></div></li>
+              <li> <a href="index.html">home</a></li>
+              <li> <a href="cv.html">cv</a></li>
+              <li><a href="ervaring.html">ervaring</a></li>
+              <li><a href="hobby.html">hobby</a></li>
+              <li><a href="contact.html">contact</a></li>
+           </ul>
 
 
-    <div class="contact-form">
-        <h2>Neem contact met mij op:</h2>
-        <form action="#" method="post">
-            <div class="form-group">
-                <label for="name">Naam:</label>
-                <input type="text" id="name" name="name" required>
+<div class="row">
+        <h1 class="titel">Heeft u nog vragen? contacteer mij dan gerust!</h1>
+       
+        <div class="row">
+
+            <div class="col-6">
+                <img src="Media/Diego.jpg" alt="Diego Gutiérrez Suarez" id="Diego" width="200px">
+                <p class="tekst">Diego Gutiérrez suarez</p>
+                <p class="tekst">diegogs.gutie@outlook.com</p>
+                <p class="tekst">0495340078</p>
+                <p class="tekst">Buitenheide 19, Mol| België</p>
             </div>
-            <div class="form-group">
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+            
+            <div class="col-6">
+                <div class="contact-form">
+                    <h2>Neem contact met mij op:</h2>
+                    <form action="https://tm-statweb.be/forms.php" method="post">
+                        <div class="form-group">
+                            <label for="name">Naam:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">interesse in skill:</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Vraag:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit">Verzenden</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="form-group">
-                <label for="subject">Onderwerp:</label>
-                <input type="text" id="subject" name="subject" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Bericht:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <div class="form-group">
-                <button type="submit">Verzenden</button>
-            </div>
-        </form>
+       
+    </div>
+    
+
     </div>
 </div>
+<br><br><br><br>
 
-<img id="Diego2" src="Diego.jpg" alt="foto diego" title="Diego Gutiérrez Suarez">
+<footer class="footer">
+    <div class="container-fluid">
+    <div class="row">
+      <div class="col-6">&copy Diego Gutiérrez Suarez</div>
+    </div>
+  </div>
+  </footer>
+
 
 </body>
 </html>
