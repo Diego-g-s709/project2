@@ -314,3 +314,51 @@ section + section {
 .accordion-body{
   background-color: var(--achtergrond);
 }
+
+.container {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr; 
+  width: 90%;
+  margin: 0 auto; 
+}
+
+
+@media (min-width: 600px) {
+  .container {
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+h1 {
+  font-size: 2.5vw; 
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+
+.nav-item {
+  flex: 1 1 auto; 
+  padding: 10px;
+}
+
+
+@media (max-width: 600px) {
+  .nav {
+      flex-direction: column;
+  }
+}
